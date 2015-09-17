@@ -1,0 +1,274 @@
+
+.th-btn-default:focus,
+.th-btn-default:active,
+.th-btn-default:hover,
+.feature-lists-style-one .feature-list:hover,
+.feature-lists-style-three .feature-list:hover,
+.owl-theme .owl-controls .owl-pagination .owl-page.active span,
+.single-testimonial .thumb-icon-area,
+.tes-thumb-ctrl-lists li a .tes-thumb-overlay,
+.download-buttons a:hover,
+.thumb-slides-controller a,
+.contact-form input[type="submit"]:focus,
+.contact-form input[type="submit"]:active,
+.contact-form input[type="submit"]:hover,
+.main-footer .footer-social li a:hover,
+.feature-lists-style-two .feature-list:hover .icon-area,
+.item-info-wrap,
+.blog-pagination .pagination li.active,
+.tagcloud a:hover,
+.category-list li:hover span,
+.overlay-brand {
+    background-color: #ff6060;
+}
+
+
+.single-blog-post .blog-post-title,
+.single-blog-post .blog-post-meta a:hover,
+.single-blog-post .blog-post-bottom-meta a:hover,
+.single-blog-post .blog-post-bottom-meta a.favorite-link.active,
+.single-blog-post .blog-post-bottom-meta a.favorite-link:hover,
+.twitter-header .twitter-icon,
+.twitter-header .twitter-title,
+#allTweets .single-tweet .tweet-text a,
+#allTweets .single-tweet .tweet-controlls a:hover,
+.contact .contact-location-toggle-btn:hover,
+.contact-info .contact-info-lists li a span,
+.contact-info .contact-info-lists li a:hover,
+.feature-common-style.extend .feature-title,
+.feature-lists-style-two .title,
+.team-theme-02 .social li a:hover,
+.statistics-02 .number,
+.blog-pagination .pagination li a:active,
+.blog-pagination .pagination li a:focus,
+.blog-pagination .pagination li a:hover,
+.single-blog-post-content a,
+.com-title a,
+.author a,
+.lp-content .title a,
+.boderd-list li:hover:before,
+.boderd-list li:hover a,
+.slider-arrow:hover,
+.small-menu .header-mobile-screen .bar-area a,
+.header-mobile-screen .menu li a:hover,
+.header-mobile-screen .menu li a:focus,
+.header-mobile-screen .menu li a:active,
+.header-big-screen .menu li a:hover,
+.header-big-screen .menu li a:focus,
+.header-big-screen .menu li a:active,
+.header-big-screen .menu li.current a,
+.banner .icons a.active,
+.banner .icons a:hover,
+.feature-style-01 .inner-box i,
+.feature-lists-style-one .feature-list i,
+.feature-lists-style-three .feature-list i,
+.content ul li:before,
+.single-testimonial blockquote cite span,
+.offer-content .offer-abs-bg .big-font,
+.offer-content h2,
+.offer-content h3 span,
+.download-buttons .left-area *,
+.th-btn-transparent:focus,
+.th-btn-transparent:active,
+.th-btn-transparent:hover,
+.small-menu .header-big-screen .menu li a:hover,
+.small-menu .header-big-screen .menu li.current a,
+.feature-lists-style-two .icon-area,
+.feature-style-01 .icon-area,
+.s-f-top i,
+.app-reasion-lists li a .left,
+.statistics-03 .number,
+.single-blog-post-meta a.favourite-link.active .top,
+.single-blog-post-meta a:hover .top,
+.single-team .info-area-bottom .t-m-designation {
+    color: #ff6060;
+}
+
+
+
+.overlay-one {
+    background: #ff6060;
+    background: -webkit-linear-gradient(0deg, #ff6060 10%, #ff4545 90%);
+    background:    -moz-linear-gradient(0deg, #ff6060 10%, #ff4545 90%);
+    background:     -ms-linear-gradient(0deg, #ff6060 10%, #ff4545 90%);
+    background:      -o-linear-gradient(0deg, #ff6060 10%, #ff4545 90%);
+    background:         linear-gradient(0deg, #ff6060 10%, #ff4545 90%);
+}
+
+.overlay-two {
+    background: #ff6060;
+    background: -webkit-linear-gradient(0deg, #ff4545 15%, #ff6060 85%);
+    background:    -moz-linear-gradient(0deg, #ff4545 15%, #ff6060 85%);
+    background:     -ms-linear-gradient(0deg, #ff4545 15%, #ff6060 85%);
+    background:      -o-linear-gradient(0deg, #ff4545 15%, #ff6060 85%);
+    background:         linear-gradient(0deg, #ff4545 15%, #ff6060 85%);
+}
+
+.overlay-three {
+    background-color: rgba(8, 8, 8, .90);
+}
+
+.overlay-four {
+    background-color: rgba(0, 0, 0, .85);
+}
+
+/*brand rgb*/
+.overlay-five {
+    background-color: rgba(255, 96, 96, 0.85);
+}
+
+.overlay-six {
+    background-color: #ff4545;
+    background: -webkit-linear-gradient(0deg, #ff4545 5%, #ff6060 95%);
+    background: -moz-linear-gradient(0deg, #ff4545 5%, #ff6060 95%);
+    background: -ms-linear-gradient(0deg, #ff4545 5%, #ff6060 95%);
+    background: -o-linear-gradient(0deg, #ff4545 5%, #ff6060 95%);
+    background: linear-gradient(0deg, #ff4545 5%, #ff6060 95%);
+}
+
+.overlay-seven {
+    background-color: rgba(34, 34, 34, 0.85);
+}
+
+.overlay-eight {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-nine {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay-ten {
+    background-color: rgba(51,51,51, 0.8);
+}
+
+
+.color-brand {
+    color: #ff6060 !important;
+}
+
+
+
+
+.not-home .small-menu .header-mobile-screen,
+.main-header.mobileBG.small-menu {
+    background-color: #BC2424;
+}
+
+.input-text:focus,
+.header-big-screen .menu li .sub-menu li:first-child,
+.feature-common-style:hover .outer-box {
+    border-color: #ff6060;
+}
+
+.feature-common-style:hover .inner-box {
+    background: #ff6060;
+    border-color: transparent;
+}
+
+.feature-style-01 .inner-box {
+    border: 1px solid #ff6060;
+    border-radius: 50%;
+}
+
+.pricing-table-style-one.basic .p-t-header:before {
+    background-color: #cacaca;
+}
+
+.pricing-table-style-one.best .p-t-header:before {
+    background-color: #ff4545;
+}
+
+.pricing-table-style-one.pro .p-t-header:before {
+    background-color: #ff9e63;
+}
+
+.pricing-table-style-one.basic .th-btn-parent {
+    background-color: #cacaca;
+}
+
+.pricing-table-style-one.best .th-btn-parent {
+    background-color: #ff4545;
+}
+
+.pricing-table-style-one.pro .th-btn-parent {
+    background-color: #ff9e63;
+}
+
+.pricing-table-style-one.basic .th-btn-parent:hover {
+    background-color: #A8A8A8;
+}
+
+.pricing-table-style-one.best .th-btn-parent:hover {
+    background-color: #ff6060;
+}
+
+.pricing-table-style-one.pro .th-btn-parent:hover {
+    background-color: #EA7A35;
+}
+
+.pricing-table-style-one .best-tag {
+    background: #ff4545;
+}
+
+.team-theme-01 .social li a:hover,
+.app-reasion-lists li a:hover .left,
+.app-reasion-lists li.active a .left,
+.app-reasion-lists li.active a:hover .left,
+.contact-info .contact-info-lists li a:hover span {
+    border-color: #ff6060;
+    background-color: #ff6060;
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff6060;
+}
+
+.contact-form .form-message.success {
+    border-color: rgba(0, 205, 255, 0.4);
+    background: rgba(0, 205, 255, 0.1);
+}
+
+.contact-form .form-message.error {
+    border-color: rgba(231, 76, 60, 0.4);
+    background: rgba(231, 76, 60, 0.1);
+}
+
+.feature-lists-style-two .icon-area {
+    border: 1px solid #ff6060;
+}
+
+.pricing-table-style-two .th-btn-parent:hover {
+    background-color: #ff6060;
+}
+
+.pricing-table-style-two.basic .p-t-header .p-t-h-bottom {
+    background-color: #ebebeb;
+}
+
+.pricing-table-style-two.standard .p-t-header .p-t-h-bottom {
+    background-color: #ddd;
+}
+
+.pricing-table-style-two.pro .p-t-header .p-t-h-bottom {
+    background-color: #ffc49d;
+}
+
+.pricing-table-style-two.premium .p-t-header .p-t-h-bottom {
+    background-color: #66d6ff;
+}
+
+.blog-pagination .pagination li.active a {
+    border-color: #ff6060;
+    color: #ff6060;
+}
+
+@media (max-width : 500px) {
+    
+    .feature-lists-style-one.feature-lists-two .feature-list:hover {
+        background-color: #ff6060;
+    }
+
+}

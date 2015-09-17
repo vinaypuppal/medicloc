@@ -1,0 +1,105 @@
+body {
+	background-color: #eeeeee;
+}
+
+.blog-banner-area {
+	background-image: url('../../img/blog-header-bg.jpg');
+	margin-bottom: 60px;
+}
+
+.blog-banner-area .section-space {
+	padding: 60px 0px 55px;
+}
+.blog-banner-area .section-space .page-title {
+	font-size: 50px;
+	font-family: 'aileronthin';
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin: 0;
+}
+
+.bottom-space {
+	margin-bottom: 120px;
+}
+
+.blog-posts {
+	box-shadow: 0px 1px 0px #d0d0d0, 0px 2px 0px #fff;
+}
+
+.all-blog-section .single-blog-post .blog-post-content {
+	margin-bottom: 25px;
+}
+
+.blog-masonry-full {
+	width: 100%;
+	max-width: 1920px;
+}
+.blog-masonry-full .single-post {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 20%;
+}
+
+
+.blog-pagination .pagination {
+	margin: 30px 0px;
+}
+.blog-pagination .pagination li {
+	display: inline-block;
+	margin: 3px;
+	border: 1px solid #e5e5e5;
+}
+
+.blog-pagination .pagination li a {
+	border-color: #fff;
+	color: #777;
+	float: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 38px;
+	height: 38px;
+	line-height: 36px;
+}
+
+.blog-pagination .pagination li.active a {
+    background: #fff;
+}
+
+.blog-pagination .pagination li a:active,
+.blog-pagination .pagination li a:focus,
+.blog-pagination .pagination li a:hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+@media (max-width: 1510px) {
+	.blog-masonry-full .single-post {
+		width: 25%;
+	}
+}
+
+@media (max-width: 1130px) {
+	.blog-masonry-full .single-post {
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 800px) {
+	.blog-masonry-full .single-post {
+		width: 50%;
+	}
+	.blog-masonry-full .single-blog-post {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+}
+
+@media (max-width: 550px) {
+	.blog-masonry-full .single-post {
+		width: 100%;
+	}
+}
+
+

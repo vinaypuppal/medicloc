@@ -1,0 +1,470 @@
+
+/* ===================================================
+   Apppick Components Layout Stylesheet
+
+   TOC:
+    01. Some Background
+    02. Welcome Sections Styles
+    03. Why Should Use Styles
+    04. Amazing-Feature-two Styles
+    05. Pricing-Table-two Styles
+    06. Quote Styles
+    07. Team-two Styles
+    08. Statistics Styles
+
+====================================================== */
+
+
+
+
+/* ====================================================
+   Some Background
+=======================================================*/
+
+.bg-01 {
+    background-color: #f7f7f7;
+}
+
+.bg-02 {
+    background-image: url('../../img/bg-06.jpg');
+}
+
+.bg-03 {
+    background-image: url('../../img/bg-07.jpg');
+}
+
+
+
+
+
+/* ====================================================
+   Welcome Sections Styles
+=======================================================*/
+.welcome {
+    background-color: #fff;
+}
+.welcome.section-space {
+    padding-bottom: 56px;
+}
+.feature-common-style {
+    margin-bottom: 60px;
+}
+.feature-common-style .feature-title {
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #676767;
+}
+.feature-common-style .outer-box {
+    border: 1px solid transparent;
+    width: 116px;
+    height: 116px;
+    padding: 5px;
+    margin: 0px auto;
+    margin-bottom: 19px;
+}
+
+.feature-common-style .inner-box {
+    font-size: 50px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    line-height: 110px;
+}
+.feature-common-style .outer-box,
+.feature-common-style .outer-box * {
+    -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+}
+
+
+
+
+.feature-style-01 .icon-area {
+    font-size: 50px;
+}
+.feature-style-01.extend .feature-title {
+    color: #666666 !important;
+}
+
+.feature-style-01.extend .feature-pera {
+    color: #999;
+}
+
+.feature-style-02 .inner-box {
+    background: #ddd;
+    border: 1px solid #ddd;
+}
+
+.feature-style-02 .inner-box i {
+    color: #fff;
+}
+
+.feature-common-style.extend .outer-box {
+    margin-bottom: 18px;
+}
+
+.feature-common-style.extend .feature-title {
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+    font-family: 'aileronlight';
+}
+.feature-common-style.extend .feature-pera {
+    font-size: 14px;
+}
+
+.feature-style-03 .image-box {
+    margin-bottom: 15px;
+}
+
+.feature-style-03.extend .feature-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* ====================================================
+   Why Should Use Styles
+=======================================================*/
+
+
+.should-use .section-space {}
+
+.should-use .section-title {
+    margin-bottom: 38px;
+}
+
+.should-use p {
+    margin-bottom: 20px;
+}
+.image-area {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -125px;
+}
+.image-area img {
+    position: relative;
+    top: 0;
+    left: 0px;
+    max-width: inherit;
+}
+
+.image-area img:nth-child(1) {
+    left: 0px;
+    z-index: 2;
+}
+
+.image-area img:nth-child(2) {
+    left: 150px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+
+/* ====================================================
+   Amazing-Feature-two Styles
+=======================================================*/
+
+.feature-lists-style-two {
+    margin-top: 60px;
+}
+
+.feature-lists-style-two .feature-list {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.feature-lists-style-two .icon-area {
+    position: absolute;
+    top: 0px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    -webkit-transition: .3s;
+            transition: .3s;
+}
+
+.feature-lists-style-two .icon-area i {}
+.feature-lists-style-two .f-content-area {}
+.feature-lists-style-two .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-family: 'aileronlight';    
+}
+
+.feature-lists-style-two .feature-list:hover .icon-area {
+    color: #fff;
+}
+
+
+.feature-lists-style-two.feature-lists-one .feature-list {
+    text-align: right;
+    padding-right: 97px;
+}
+.feature-lists-style-two.feature-lists-two .feature-list {
+    text-align: left;
+    padding-left: 97px;
+}
+
+.feature-lists-style-two.feature-lists-one .icon-area {
+    right: 0;
+}
+.feature-lists-style-two.feature-lists-two .icon-area {
+    left: 0;
+}
+
+
+
+
+
+/* ====================================================
+   Pricing-Table-two Styles
+=======================================================*/
+
+.pricing-table-style-two .pricing-container > * {
+    padding: 0px 20px;
+    position: relative;
+}
+
+.pricing-table-style-two .pricing-container .p-t-header {
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+
+.pricing-table-style-two .th-btn-parent {
+    background-color: #676767;
+    color: #fff;
+}
+
+.pricing-table-style-two .p-t-header .p-t-h-top {
+    padding: 22px 20px 17px;
+    color: #676767;
+}
+
+.pricing-table-style-two .p-t-header .pricing-title {
+    font-size: 23px;
+    font-family: 'aileronlight';
+    margin: 0px;
+    margin-left: -3px;
+}
+
+.pricing-table-style-two .p-t-header .p-t-h-bottom {
+    padding: 0px 20px;
+    background: #ebebeb;
+}
+
+.pricing-table-style-two .p-t-header .price-number {
+    font-size: 50px;
+    font-family: 'aileronlight';
+}
+
+.pricing-table-style-two .p-t-header .price-number span {
+    font-size: 20px;
+    vertical-align: super;
+}
+
+.pricing-table-style-two .p-t-header .price-area {
+    padding: 30px 0px 34px;
+}
+
+.pricing-table-style-two .p-t-header .price-area p {
+    margin: 0px;
+    margin-bottom: 2px;
+    line-height: 1;
+}
+
+.pricing-table-style-two .pricing-container .p-t-body {
+    font-size: 14px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.pricing-table-style-two .pricing-container .p-t-body ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pricing-table-style-two .pricing-container .p-t-body ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.pricing-table-style-two .pricing-container .p-t-body ul li.not-include {
+    text-decoration: line-through;
+}
+
+.pricing-table-style-two .pricing-container .p-t-footer {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/* ====================================================
+   Quote Styles
+=======================================================*/
+
+.quote-section .section-space {
+    padding: 90px 0px;
+}
+
+.quote-section blockquote {
+    color: #fff;
+    font-size: 18px;
+}
+
+.quote-section blockquote .quotation {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.quote-section blockquote .quotation-info {
+    font-size: 16px;
+}
+
+.quote-section blockquote .quotation-info span {
+    font-style: normal;
+    font-family: 'aileronlight';
+}
+
+
+
+
+
+/* ====================================================
+   Team-two Styles
+=======================================================*/
+
+.item-info-wrap {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .4s ease;
+            transition: all .4s ease;
+}
+
+.single-team:hover .item-info-wrap {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.item-info-container {
+    position: relative;
+    height: 100%;
+    padding-bottom: 70px;
+}
+
+.info-top-container {
+    text-align: left;
+    padding: 20px;
+    max-height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    font-size: 14px;
+    padding-bottom: 0px;
+    line-height: 1.75;
+}
+
+.info-top-container * {
+    margin: 0px;
+}
+
+.info-bottom-container {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.team-theme-02 .social li a {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.team-theme-02 .social li a:hover {
+    background-color: #fff;
+}
+
+
+
+
+
+/* ====================================================
+   Statistics Styles
+=======================================================*/
+
+/*statistic 1*/
+.statistics-01 {
+    background-image: url('../../img/bg-02.jpg');
+}
+.statistics-01 .section-space {
+    padding: 129px 0px;
+}
+
+.statistics-01 .overlay {
+    opacity: .95;
+    filter: alpha(opacity=95);
+}
+
+.statistic-area {
+    position: relative;
+    padding: 28px 10px 10px;
+    margin: 0px 30px;
+}
+.statistic-area * {
+    position: relative;
+    z-index: 2;
+}
+.statistic-bg-01 {
+    background-image: url('../../img/bg-pattern-01.png');
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.statistics-01 .number {
+    font-size: 100px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-family: 'aileronlight';
+}
+.statistics-01 .text {
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+
+
+/*statistic 2*/
+.statistics-02 {
+    background-image: url('../../img/bg-08.jpg');
+}
+
+.statistics-02 .number {
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-family: 'aileronlight';
+}
+
+.statistics-02 .text {
+    font-size: 16px;
+    margin: 0;
+}

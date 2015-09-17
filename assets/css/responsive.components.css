@@ -1,0 +1,182 @@
+/* ===================================================
+   Apppick Components Media Queries
+
+   TOC : 
+	1. screenwidth less than 1200px ( large Screen )
+	2. screenwidth less than 992px ( Medium Screen / Tablets )
+	3. screenwidth less than 768px ( Mobile wide / Smaller/Medium Tablets )
+	4. screenwidth less than 501px ( Small / Extra Small Screen Mobile )
+
+====================================================== */
+
+
+/* screenwidth less than 1200px
+------------------------------- */
+@media (min-width : 768px) and (max-width: 1199px) {
+	.feature-lists-style-two.feature-lists-one .feature-list {
+		padding-right: 87px;
+	}
+
+	.feature-lists-style-two.feature-lists-two .feature-list {
+		padding-left: 87px;
+	}
+
+	.feature-lists-style-two .icon-area {
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+		font-size: 20px;
+	}
+
+	.feature-lists-style-two .title {
+		font-size: 20px;
+		margin-bottom: 13px;
+	}
+
+	.team-theme-02 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+
+/* screenwidth less than 992px
+------------------------------ */
+@media (max-width: 991px) {
+	.feature-style-03 {
+		text-align: center;
+	}
+	.feature-lists-style-two {
+		margin-top: 0px;
+	}
+	.feature-lists-style-two .feature-list {
+		margin-bottom: 40px;
+	}
+	.feature-lists-style-two .icon-area {
+		display: none;
+	}
+	.feature-lists-style-two.feature-lists-one .feature-list {
+		padding-right: 0px;
+	}
+	.feature-lists-style-two.feature-lists-two .feature-list {
+		padding-left: 0px;
+	}
+
+	.pricing-table-item-wrap > div:nth-child(odd) .pricing-table-style-two {
+		margin-left: 50px;
+	}
+	.pricing-table-item-wrap > div:nth-child(even) .pricing-table-style-two {
+		margin-right: 50px;
+	}
+
+
+	.quote-section blockquote {
+	    font-size: 16px;
+	}
+
+
+
+	.team-theme-02 {
+		margin: 0px 35px;
+	}
+
+	.team-members-wrap > div:nth-child(odd) .team-theme-02 {
+		margin-left: 25%;
+		margin-right: 5%;
+	}
+
+	.team-members-wrap > div:nth-child(even) .team-theme-02 {
+		margin-left: 5%;
+		margin-right: 25%;
+	}
+
+	.statistics-02 .section-space {
+		padding: 91px 0px;
+	}
+
+	.statistics-02 .number {
+		font-size: 50px;
+	}
+	.statistics-02 .text {
+		font-size: 16px;
+	}
+}
+
+
+/* screenwidth less than 768px
+------------------------------ */
+@media (max-width : 767px) {
+
+	.feature-lists-style-two .icon-area {
+		display: block;
+		position: inherit;
+		margin: 0px auto 20px;
+	}
+
+	.feature-lists-style-two.feature-lists-one .feature-list,
+	.feature-lists-style-two.feature-lists-two .feature-list {
+		text-align: center;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		min-width: 270px;
+		max-width: 100%;
+	}
+	.pricing-table-item-wrap > div .pricing-table-style-two {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	.team-members-wrap > div:nth-child(odd) .team-theme-02 {
+		margin-left: 15%;
+		margin-right: 0%;
+	}
+
+	.team-members-wrap > div:nth-child(even) .team-theme-02 {
+		margin-right: 15%;
+		margin-left: 0%;
+	}
+
+	.statistics-02 .number {
+		font-size: 40px;
+	}
+	.statistics-02 .text {
+		font-size: 13px;
+	}
+
+}
+
+
+/* screenwidth less than 501px
+------------------------------ */
+@media (max-width : 500px) {
+	.feature-common-style .outer-box {
+		width: 90px;
+		height: 90px;
+	}
+	.feature-common-style .inner-box {
+		font-size: 36px;
+		line-height: 76px;
+	}
+
+	.team-members-wrap > div:nth-child(odd) .team-theme-02,
+	.team-members-wrap > div:nth-child(even) .team-theme-02 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.all-statistics-area {
+		margin-bottom: -30px;
+	}
+
+	.all-statistics-area > div {
+		margin-bottom: 30px;
+	}
+
+	.statistics-02 .number {
+		font-size: 45px;
+	}
+	.statistics-02 .text {
+		font-size: 14px;
+	}
+}
