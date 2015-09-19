@@ -2660,10 +2660,10 @@ nav.menu.flex ul li img{
 .fb-like{
     padding: 20px;
 }
-.fb-like span#u_0_2{
+span#u_0_2,span#u_0_3,span#u_0_1{
     color:#fff;
 }
-.fb-like span#u_0_2 a{
+span#u_0_2 a{
     text-decoration: none;
     color: #fd6ca3;
 }
