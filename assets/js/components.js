@@ -12,7 +12,7 @@ $(document).ready(function(){
 $(window).load(function(){
 
 	// hide the loader
-	$('#loader').fadeOut();
+	// $('#loader').fadeOut();
 
 	// count up statistic
 	var $countNumb = $('.countNumb');

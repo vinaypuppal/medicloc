@@ -876,7 +876,12 @@ nav.menu.flex ul li img{
 =======================================================*/
 
 .banner {
-    background-image: url('../../img/banner_bg.png');
+    background: -webkit-linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* W3C */
+    background: url('https://res.cloudinary.com/medicloc/image/upload/v1442660200/backgrounds/banner_bg.png');
     position: relative;
     min-height: 100%;
     padding-top: 200px;
@@ -1761,7 +1766,7 @@ nav.menu.flex ul li img{
 =======================================================*/
 
 .download {
-    background-image: url('../../img/bg-04.jpg');
+    background-image: url('https://res.cloudinary.com/medicloc/image/upload/v1442660225/backgrounds/bg-04.jpg');
 }
 
 .download-buttons {
@@ -2119,7 +2124,7 @@ nav.menu.flex ul li img{
 =======================================================*/
 
 .news-letter {
-    background-image: url('../../img/bg-05.jpg');
+    background-image: url('https://res.cloudinary.com/medicloc/image/upload/v1442660225/backgrounds/bg-05.jpg');
 }
 
 .news-letter .section-space {

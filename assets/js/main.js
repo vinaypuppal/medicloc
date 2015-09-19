@@ -350,7 +350,7 @@ if ( jQuery.browser.mobile !== true && typeof jQuery.stellar === 'function') {
 							'top' : '0px'
 						},300);
 					}
-					$('.menu li>img').attr('src','img/medicloc-logo-black.png');
+					$('.menu li>img').attr('src','https://res.cloudinary.com/medicloc/image/upload/v1442660279/logos/medicloc-logo-black.png');
 					$('.menu li>img').addClass('no-top');
 				},
 				displayNormalMenu : function(){
@@ -363,7 +363,7 @@ if ( jQuery.browser.mobile !== true && typeof jQuery.stellar === 'function') {
 							}, 300);
 						});
 					}
-					$('.menu li>img').attr('src','img/medicloc-logo.png');
+					$('.menu li>img').attr('src','http://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png');
 					$('nav.menu ul li img').removeClass('no-top');
 				},
 				hideSmallMenu : function(){
@@ -510,7 +510,7 @@ var mobileMenu = {
 		});
 		return this;
 	},
-	showMenu : function(){
+	showMenu : function(){		
 		if ( !mobileMenu.bar.is(':visible') ) { return false; }
 		mobileMenu.bar.find('a.open-menu').hide().siblings('a').show();
 		$('#home .overlay-content').removeClass('fadeInUpSmall').addClass('fadeOutUpSmall');

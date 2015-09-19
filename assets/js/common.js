@@ -141,15 +141,15 @@ $(document).ready(function(){
 $(window).load(function(){
 
 	// hide the loader
-	(function(){
-		var loader = $('#loader');
-		if ( loader.length > 0 ) {
-			$('#loader').fadeOut(function(){
-				$('#home .overlay-content').removeClass('fadeOut').addClass('fadeInUpSmall');
-				$('#home .overlay-content .animated').removeClass('fadeOut').addClass('bounceInDown');
-			});
-		}
-	}());
+	// (function(){
+	// 	var loader = $('#loader');
+	// 	if ( loader.length > 0 ) {
+	// 		$('#loader').fadeOut(function(){
+	// 			$('#home .overlay-content').removeClass('fadeOut').addClass('fadeInUpSmall');
+	// 			$('#home .overlay-content .animated').removeClass('fadeOut').addClass('bounceInDown');
+	// 		});
+	// 	}
+	// }());
 
 
 	// favorite maker
