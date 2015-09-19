@@ -2645,13 +2645,20 @@ nav.menu.flex ul li img{
     .hasCountdown{
       width: 75%;
     }
-    
+    html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 } 
 
 @media only screen and (max-width:480px){
     .hasCountdown{
       width: 100%;
     }
+    html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 } 
 
 .contact-info{
