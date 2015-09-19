@@ -925,7 +925,7 @@ $(window).resize(function(){
 				mchimpMessageArea.removeClass('success').addClass('error').html('<p>Please enter a valid email address.</p>').slideDown();
 			}
 		},
-		url: "http://medicloc.us11.list-manage.com/subscribe/post?u=87fd0fb2f038f256f4eaeccbd&amp;id=b5f4511f5d" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "". 
+		url: "https://medicloc.us11.list-manage.com/subscribe/post?u=87fd0fb2f038f256f4eaeccbd&amp;id=b5f4511f5d" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "". 
 			//https://coderpixel.us10.list-manage.com/subscribe/post?u=3918a7d4d5fe9e4c1baa3d912&amp;id=1a52016f23
 	});
 }(jQuery));
