@@ -2660,6 +2660,7 @@ nav.menu.flex ul li img{
 .fb-like{
     padding: 20px;
     overflow: hidden;
+    width: 100%;
 }
 .main-footer .top {
     background-color: #66798F;
