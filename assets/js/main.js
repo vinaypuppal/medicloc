@@ -927,3 +927,14 @@ $(window).resize(function(){
 		url: "https://coderpixel.us10.list-manage.com/subscribe/post?u=3918a7d4d5fe9e4c1baa3d912&amp;id=1a52016f23" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
 	});
 }(jQuery));
+
+//Download btns
+
+$('a.show-alert').on('click',function(e){
+	e.preventDefault();
+	swal({
+		title:'Medicloc',
+		text:'Will be Available Soon on Stores',
+		type:'info'
+	});
+})
