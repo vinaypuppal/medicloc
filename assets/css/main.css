@@ -2660,10 +2660,39 @@ nav.menu.flex ul li img{
 .fb-like{
     padding: 20px;
 }
-span#u_0_2,span#u_0_3,span#u_0_1{
-    color:#fff;
+.main-footer .top {
+    background-color: #66798F;
+    color: #fff;
+    padding: 85px 0px 50px;
 }
-span#u_0_2 a{
-    text-decoration: none;
-    color: #fd6ca3;
+.main-footer .bottom {
+    background-color: #344961;
+    color: #fff;
+    font-size: 13px;
+    padding: 13px 0px;
+    border-top: 1px solid #344961;
+}
+.main-footer .footer-social li a{
+    background: #344961;
+}
+.contact .contact-location-toggle-btn span{
+    background:#66798F;
+}
+.facebook{
+    background: #3962B9 !important;
+}
+.google{
+    background: red !important;
+}
+.twitter{
+    background: #4285F4 !important;
+}
+.instagram{
+    background: #FAC628 !important;
+}
+.facebook:hover,.twitter:hover,.google:hover,.instagram:hover{
+    opacity:0.8 !important;
+}
+.contact .contact-location-toggle-btn{
+    border: 3px solid #66798F;
 }
