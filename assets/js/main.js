@@ -792,6 +792,7 @@ $(document).ready(function(){
 // callback after loading the window
 $(window).load(function(){
 
+	
 	/*============ Fix Offer Image ============*/
 
 	fixOfferImageHeight();
@@ -929,12 +930,14 @@ $(window).resize(function(){
 }(jQuery));
 
 //Download btns
-
-$('a.show-alert').on('click',function(e){
-	e.preventDefault();
-	swal({
-		title:'Medicloc',
-		text:'Will be Available Soon on Stores',
-		type:'info'
+$('document').ready(function(){
+		//download btns
+		$('a.show-alert').on('click',function(e){
+		e.preventDefault();
+		swal({
+			title:'Medicloc',
+			text:'Will be Available Soon on Stores',
+			type:'info'
+		});
 	});
-})
+});
