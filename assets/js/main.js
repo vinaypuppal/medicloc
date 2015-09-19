@@ -744,9 +744,9 @@ $(document).ready(function(){
 		$('#contactForm .form-message').slideUp();
 	});
 
-	var austDay = new Date();
-            austDay = new Date(austDay.getFullYear() + 1, 1 - 1,1);
-            $('#defaultCountdown').countdown({until: austDay});
+	// var austDay = new Date();
+ //            austDay = new Date(austDay.getFullYear() + 1, 1 - 1,1);
+ //            $('#defaultCountdown').countdown({until: austDay});
 
 	$('#contactForm').on('submit', function(e){
 		e.preventDefault();

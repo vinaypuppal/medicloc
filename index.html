@@ -72,7 +72,9 @@
         <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
         <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
 
-
+        <script type="text/javascript" src="assets/js/vendor/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>  
+        <script type="text/javascript" src="assets/js/jquery.unveil.js"></script>
         <!-- Header Scripts -->
 
         <!--[if lt IE 9]>
@@ -88,7 +90,7 @@
 
 <!-- 
         <div id="loader" class="overlay-two">
-            <div class="loader">Loading...</div>
+            <div class="loader"></div>
         </div> -->
 
 
@@ -103,14 +105,14 @@
                                 <ul>
                                     <li class="current"><a href="#why" data-section="#why" class="menu-smooth-scroll">Why?</a>
                                     </li>
-                                    <li><a href="#features" data-section="#features" class="menu-smooth-scroll">Featues</a>
+                                    <li><a href="#features" data-section="#features" class="menu-smooth-scroll">Features</a>
                                     </li>
                                    <li><a href="#app-brief-slider" data-section="#app-brief-slider" class="menu-smooth-scroll">App Brief</a>
                                     </li>
                                     <li>
                                         <!-- logo -->
 
-                                        <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png" alt="Medicloc-logo">
+                                        <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png" alt="Medicloc-logo">
                                     </li>
                                      <li><a href="#download" data-section="#download" class="menu-smooth-scroll">Download</a>
                                     </li>
@@ -128,7 +130,7 @@
                 <div class="header-inner full-height">
                     <div class="logo-area">
                         <a href="#home" data-section="#home" class="logo menu-smooth-scroll">
-                            <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png" class="white-logo" alt="logo">
+                            <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png" class="white-logo" alt="logo">
                             <h4>Medicloc</h4>
                         </a>
                         <div class="bar-area pull-right">
@@ -164,7 +166,11 @@
                                     <h2 class="heading">Awesome <br>features inside!</h2>
                                     <h4>Arriving In</h4>
                                     <div id='defaultCountdown'>
-            
+                                        <script>
+                                        var austDay = new Date();
+                                        austDay = new Date(austDay.getFullYear() + 1, 1 - 1,1);
+                                        $('#defaultCountdown').countdown({until: austDay});
+                                        </script>
                                     </div>
                                     <div class="icons" id="banner-slider-controller">
                                         <h4>For Both</h4>
@@ -176,8 +182,8 @@
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 
                                 <div class="images-area hidden-xs animated" id="banner-sldier">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="iphone image">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660414/appscreens/android.png" alt="android phone image">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="iphone image">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660414/appscreens/android.png" alt="android phone image">
                                 </div>
                                 <div class="button-area">
                                     <a href="#" class="th-btn th-btn-transparent th-btn-big smooth-scroll" data-section="#download">Download</a>
@@ -202,17 +208,17 @@
                         <div class="why-section-col col-lg-6 col-md-6 col-sm-6 hidden-xs">
                             <div id="why_slider" class="why-slider">
                                 <div class="thumb-area">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660421/appscreens/Apple-iPhone-6.png" alt="">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660421/appscreens/Apple-iPhone-6.png" alt="">
                                 </div>
                                 <div class="thumb-area">
-                                   <!--  <img src="img/iphone-black-02.png" alt="">
-                                    <img src="img/iphone-white-03-small.png" alt=""> -->
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660421/appscreens/Apple-iPhone-6.png" alt="">
+                                   <!--  <img src='img/circles.svg' data-src="img/iphone-black-02.png" alt="">
+                                    <img src='img/circles.svg' data-src="img/iphone-white-03-small.png" alt=""> -->
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660421/appscreens/Apple-iPhone-6.png" alt="">
                                 </div>
                                 <div class="thumb-area">
-                                    <!-- <img src="img/iphone-white-01.png" alt=""> -->
-                                    <!-- <img src="img/iphone-black-01-small.png" alt=""> -->
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660421/appscreens/Apple-iPhone-6.png" alt="">
+                                    <!-- <img src='img/circles.svg' data-src="img/iphone-white-01.png" alt=""> -->
+                                    <!-- <img src='img/circles.svg' data-src="img/iphone-black-01-small.png" alt=""> -->
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660421/appscreens/Apple-iPhone-6.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -262,32 +268,32 @@
                         <div class="col-lg-12">
                             <div class="feature-lists feature-lists-one feature-lists-style-three">
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/e-pharm.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/e-pharm.png" alt="e-pharm">
                                     <h3 class="title">E-Pharam</h3>
                                     <!-- <p class="pera">Lorem ipsum sit ed do eiusmod tempor incididunt ut labore et dolore magna.</p> -->
                                 </div>
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/location-1.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/location-1.png" alt="e-pharm">
                                     <h3 class="title">Location Based Services</h3>
                                     <!-- <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore magna.</p> -->
                                 </div>
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/spot_ur_doctor.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/spot_ur_doctor.png" alt="e-pharm">
                                     <h3 class="title">Spot Your Doctor</h3>
                                     <!-- <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut dolore magna.</p> -->
                                 </div>
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/blood_donor.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/blood_donor.png" alt="e-pharm">
                                     <h3 class="title">Find a Blood Donar</h3>
                                     <!-- <p class="pera">Lorem sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p> -->
                                 </div>
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/medilog.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/medilog.png" alt="e-pharm">
                                     <h3 class="title">MediLog</h3>
                                     <!-- <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut dolore magna.</p> -->
                                 </div>
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/hour14.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/hour14.png" alt="e-pharm">
                                     <h3 class="title">Delivery within two hours</h3>
                                     <!-- <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore magna.</p> -->
                                 </div>
@@ -297,12 +303,12 @@
                                     <!-- <p class="pera">Lorem sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p> -->
                                 </div>
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/health_tips.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/health_tips.png" alt="e-pharm">
                                     <h3 class="title">Health Tips</h3>
                                     <!-- <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut dolore magna.</p> -->
                                 </div>
                                 <div class="feature-list col col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/prescription.png" alt="e-pharm">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660314/icons/prescription.png" alt="e-pharm">
                                     <h3 class="title">Upload Your Prescription</h3>
                                     <!-- <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore magna.</p> -->
                                 </div>
@@ -332,8 +338,8 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumb-area">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/android.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/android.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
@@ -366,8 +372,8 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumb-area">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/android.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/android.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
@@ -399,8 +405,8 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumb-area">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
-                                    <img src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/android.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/iphone.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
+                                    <img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660436/appscreens/android.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
@@ -497,34 +503,34 @@
                         <div class="container">
                             <div class="screenshoot-area">
                                 <div id="screenshoot_slider" class="screenshoot-slider">
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-01.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-02.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-03.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-04.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-05.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-01.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-02.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-03.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-04.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-05.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-01.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-02.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-03.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-04.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-05.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-01.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-02.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-03.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-04.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-05.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-01.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-02.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-03.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-04.jpg" alt="screenshoot"></div>
+                                    <div class="single-screenshoot"><img src='img/circles.svg' data-src="img/screenshoot-05.jpg" alt="screenshoot"></div>
                                 </div>
                                 <div class="mobile-bg hidden-xs">
-                                    <img src="img/iphone-white-03-no-screen.png" alt="iphone with no bg">
+                                    <img src='img/circles.svg' data-src="img/iphone-white-03-no-screen.png" alt="iphone with no bg">
                                 </div>
                             </div>
                         </div>
@@ -547,7 +553,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10 col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-xs-offset-1 video-area">
-                            <iframe src="//player.vimeo.com/video/90299717" width="554" height="313"></iframe>
+                            <iframe src='img/circles.svg' data-src="//player.vimeo.com/video/90299717" width="554" height="313"></iframe>
                         </div>
                     </div>
                 </div>
@@ -575,7 +581,7 @@
                                 <div class="container">
                                     <div class="tes-thumbnail-area wow bounceIn" data-wow-delay=".5s" data-wow-deration=".8s" data-wow-offset="150">
                                         <div class="tes-thumbnail-outer">
-                                            <img class="tes-thumb-img" src="http://placehold.it/250x250" alt="testimonial thumb">
+                                            <img class="tes-thumb-img" src='img/circles.svg' data-src="http://placehold.it/250x250" alt="testimonial thumb">
                                         </div>
                                         <span class="thumb-icon-area"><i class="fa fa-quote-left"></i></span>
                                     </div>
@@ -591,7 +597,7 @@
                                 <div class="container">
                                     <div class="tes-thumbnail-area wow bounceIn" data-wow-delay=".5s" data-wow-deration=".8s" data-wow-offset="150">
                                         <div class="tes-thumbnail-outer">
-                                            <img class="tes-thumb-img" src="http://placehold.it/250x250" alt="testimonial thumb">
+                                            <img class="tes-thumb-img" src='img/circles.svg' data-src="http://placehold.it/250x250" alt="testimonial thumb">
                                         </div>
                                         <span class="thumb-icon-area"><i class="fa fa-quote-left"></i></span>
                                     </div>
@@ -607,7 +613,7 @@
                                 <div class="container">
                                     <div class="tes-thumbnail-area wow bounceIn" data-wow-delay=".5s" data-wow-deration=".8s" data-wow-offset="150">
                                         <div class="tes-thumbnail-outer">
-                                            <img class="tes-thumb-img" src="http://placehold.it/250x250" alt="testimonial thumb">
+                                            <img class="tes-thumb-img" src='img/circles.svg' data-src="http://placehold.it/250x250" alt="testimonial thumb">
                                         </div>
                                         <span class="thumb-icon-area"><i class="fa fa-quote-left"></i></span>
                                     </div>
@@ -623,9 +629,9 @@
                         <div class="container">
                             <div class="tes-thumb-ctrl-area">
                                 <ul class="tes-thumb-ctrl-lists" id="testimonial-thumb-ctrl">
-                                    <li class="active"><a href=""><img src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
-                                    <li class=""><a href=""><img src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
-                                    <li class=""><a href=""><img src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
+                                    <li class="active"><a href=""><img src='img/circles.svg' data-src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
+                                    <li class=""><a href=""><img src='img/circles.svg' data-src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
+                                    <li class=""><a href=""><img src='img/circles.svg' data-src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -735,7 +741,7 @@
                     <div class="offer-content-wrapper clearfix">
                         <div class="offer-left-area hidden-xs">
                             <div class="offer-image-area">
-                                <img src="img/iphone-offer-white.png" alt="offer image">
+                                <img src='img/circles.svg' data-src="img/iphone-offer-white.png" alt="offer image">
                             </div>
                         </div>
                         <div class="offer-right-area">
@@ -801,7 +807,7 @@
                             <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall">
                                 <div class="single-team">
                                     <div class="team-member-img">
-                                        <img src="https://placehold.it/220x250" alt="Team member pic">
+                                        <img src='img/circles.svg' data-src="https://placehold.it/220x250" alt="Team member pic">
                                     </div>
                                     <div class="team-member-info">
                                         <div class="info-area-top">
@@ -823,7 +829,7 @@
                             <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".2s">
                                 <div class="single-team">
                                     <div class="team-member-img">
-                                        <img src="https://placehold.it/220x250" alt="Team member pic">
+                                        <img src='img/circles.svg' data-src="https://placehold.it/220x250" alt="Team member pic">
                                     </div>
                                     <div class="team-member-info">
                                         <div class="info-area-top">
@@ -845,7 +851,7 @@
                             <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".4s">
                                 <div class="single-team">
                                     <div class="team-member-img">
-                                        <img src="https://placehold.it/220x250" alt="Team member pic">
+                                        <img src='img/circles.svg' data-src="https://placehold.it/220x250" alt="Team member pic">
                                     </div>
                                     <div class="team-member-info">
                                         <div class="info-area-top">
@@ -867,7 +873,7 @@
                             <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".6s">
                                 <div class="single-team">
                                     <div class="team-member-img">
-                                        <img src="https://placehold.it/220x250" alt="Team member pic">
+                                        <img src='img/circles.svg' data-src="https://placehold.it/220x250" alt="Team member pic">
                                     </div>
                                     <div class="team-member-info">
                                         <div class="info-area-top">
@@ -906,7 +912,7 @@
                         <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
                             <div class="single-blog-post theme01">
                                 <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="https://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
+                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src='img/circles.svg' data-src="https://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
                                 </div>
                                 <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
                                 <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
@@ -922,7 +928,7 @@
                         <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
                             <div class="single-blog-post theme01">
                                 <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
+                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src='img/circles.svg' data-src="http://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
                                 </div>
                                 <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
                                 <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
@@ -938,7 +944,7 @@
                         <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
                             <div class="single-blog-post theme01">
                                 <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
+                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src='img/circles.svg' data-src="http://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
                                 </div>
                                 <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
                                 <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
@@ -1028,7 +1034,7 @@
             <!-- Contact Area start -->
             <section id="contact" class="contact scroll-section">
                 <div class="container">
-                    <a href="#" data-section="#contact" class="contact-location-toggle-btn wow bounce" data-wow-duration="1.5s"><span><img src="https://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png" alt=""></span></a>
+                    <a href="#" data-section="#contact" class="contact-location-toggle-btn wow bounce" data-wow-duration="1.5s"><span><img src='img/circles.svg' data-src="https://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png" alt=""></span></a>
                     <div class="contact-content-wrapper">
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-xxs-12 hidden-xxs">
@@ -1117,11 +1123,15 @@
             </div>
         </footer>
         <!-- Footer area end -->
-
-
+    <script>    
+        $(document).ready(function() {
+          $("img").unveil();
+        });
+    </script>
+        
 
         <script>window.jQuery || document.write('<script type="text/javascript" src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+        <!--<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>-->
 
         <script type="text/javascript" src="assets/js/vendor/detectmobilebrowser.js"></script>
         <script type="text/javascript" src="assets/js/vendor/jquery.easing.1.3.js"></script>
@@ -1147,7 +1157,6 @@
         <script type="text/javascript" src="assets/jwplayer/jwplayer.js"></script>
 
         <script type="text/javascript" src="assets/js/common.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>  
         <script type="text/javascript" src="assets/js/sweetalert.min.js"></script>              
         <script type="text/javascript" src="assets/js/main.js"></script>
     </body>
