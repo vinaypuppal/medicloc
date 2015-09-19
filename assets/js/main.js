@@ -363,7 +363,7 @@ if ( jQuery.browser.mobile !== true && typeof jQuery.stellar === 'function') {
 							}, 300);
 						});
 					}
-					$('.menu li>img').attr('src','http://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png');
+					$('.menu li>img').attr('src','https://res.cloudinary.com/medicloc/image/upload/v1442660278/logos/medicloc-logo.png');
 					$('nav.menu ul li img').removeClass('no-top');
 				},
 				hideSmallMenu : function(){
