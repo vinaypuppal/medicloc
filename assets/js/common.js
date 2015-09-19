@@ -151,7 +151,7 @@ $(window).load(function(){
 	// 	}
 	// }());
 
-
+	
 	// favorite maker
 	(function(){
 		var lovedText = "You already love this", loveText = "Love this", loveClass = "active";

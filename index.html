@@ -87,7 +87,15 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
+        <!-- facebook sdk -->
+       <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4&appId=1618170568448831";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- 
         <div id="loader" class="overlay-two">
             <div class="loader"></div>
@@ -1113,6 +1121,7 @@
                             <li><a target='_blank' href="https://instagram.com/mediclocofficial"><i class="fa fa-instagram"></i></a></li>
                             <!-- <li><a target='_blank' href="https://instagram.com/mediclocofficial"><i class="fa fa-linkedin"></i></a></li> -->
                         </ul>
+                        <div class="fb-like" data-href="https://www.facebook.com/Medicloc-917283355009190/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                     </div>
                 </div>
             </div>
