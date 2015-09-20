@@ -188,7 +188,7 @@ body, html {
     color: #666;
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 p {
     margin-bottom: 25px;
@@ -304,7 +304,7 @@ textarea {
     border: none;
     -webkit-transition: all .3s ease;
             transition: all .3s ease;
-    font-family: 'aileronlight';
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 .th-btn:active {
@@ -345,14 +345,14 @@ textarea {
     border-radius: 30px;
     padding: 14px 25px 13px;
     font-size: 15px;
-    font-family: 'aileronregular';
+    font-family: 'Raleway', sans-serif;
 }
 
 .th-btn-small {
     border-radius: 30px;
     padding: 11px 16px 10px;
     font-size: 13px;
-    font-family: 'aileronlight';
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -406,7 +406,7 @@ main.main {
     font-size: 50px;
     margin-bottom: 18px;
     line-height: 1.2;
-    font-family: 'aileronthin';
+    font-family: 'Poiret One', cursive;
 }
 
 .section-space {
@@ -895,7 +895,7 @@ nav.menu.flex ul li img{
 .banner .heading {
     font-size: 60px;
     color: #fff;
-    font-family: 'aileronthin';
+    font-family: 'Poiret One', cursive;
     line-height: 1.18;
     margin-bottom: 62px;
 }
@@ -943,7 +943,7 @@ nav.menu.flex ul li img{
 #home h4{
     color: #FFF;
     font-weight: 500;
-    font-family: Helvetica;
+    font-family: 'Poiret One', cursive;
 }
 #home .heading{
     margin-bottom: 10px;
@@ -975,7 +975,7 @@ nav.menu.flex ul li img{
 }
 .s-f-title {
     font-size: 20px;
-    font-family: 'aileronlight';
+    font-family: 'Poiret One', cursive;
     color: #666;
     margin-top: 7px;
 }
@@ -1138,7 +1138,7 @@ nav.menu.flex ul li img{
     font-size: 20px;
     margin: 0;
     margin-bottom: 15px;
-    font-family: 'aileronlight';
+    font-family: 'Poiret One', cursive;
 }
 .feature-lists-style-one .feature-list .pera,
 .feature-lists-style-three .feature-list .pera {
@@ -1319,7 +1319,7 @@ nav.menu.flex ul li img{
 
 .statistics-03 .number {
     font-size: 40px;
-    font-family: 'aileronbold';
+    font-family: 'Raleway', sans-serif;
     display: inline-block;
     vertical-align: middle;
 }
@@ -1622,7 +1622,7 @@ nav.menu.flex ul li img{
 
 .pricing-table-style-one .pricing-container .p-t-header .pricing-title {
     font-size: 50px;
-    font-family: 'aileronthin';
+    font-family: 'Poiret One', cursive;
     margin: 0px;
     margin-left: -3px;
 }
@@ -1663,7 +1663,7 @@ nav.menu.flex ul li img{
 
 .pricing-table-style-one .pricing-container .p-t-footer {
     padding-bottom: 46px;
-    font-family: 'aileronlight';
+    font-family: 'Poiret One', cursive;
 }
 
 .pricing-table-style-one .pricing-container .p-t-footer .price {
@@ -1733,12 +1733,12 @@ nav.menu.flex ul li img{
 .offer-content h2 {
     font-size: 40px;
     font-weight: 100;
-    font-family: 'aileronthin';
+    font-family: 'Poiret One', cursive;
     line-height: 1.13;
     margin-bottom: 25px;
 }
-.offer-content h2 span {
-    font-family: "aileronregular";
+.offer-content h2 {
+font-family: 'Raleway', sans-serif;
     display: block;
     margin-left: 80px;
     font-size: 60px;
@@ -1746,10 +1746,10 @@ nav.menu.flex ul li img{
 .offer-content h3 {
     color: #555;
     margin-bottom: 15px;
-    font-family: 'aileronthin';
+    font-family: 'Poiret One', cursive;
 }
 .offer-content h3 span {
-    font-family: 'aileronregular';
+font-family: 'Raleway', sans-serif;
 }
 .offer-content p:last-of-type {
     margin-bottom: 35px;
@@ -1905,7 +1905,7 @@ nav.menu.flex ul li img{
     font-size: 20px;
     color: #555555;
     margin-bottom: 5px;
-    font-family: 'aileronlight';
+font-family: 'Poiret One', cursive;
 }
 .single-team .info-area-bottom .t-m-designation {
     font-size: 14px;
@@ -2049,7 +2049,7 @@ nav.menu.flex ul li img{
 .single-blog-post .blog-post-title {
     font-size: 25px;
     margin-bottom: 5px;
-    font-family: 'aileronlight';
+font-family: 'Poiret One', cursive;
 }
 .single-blog-post .blog-post-meta,
 .single-blog-post .blog-post-meta a {
@@ -2071,7 +2071,7 @@ nav.menu.flex ul li img{
 }
 
 .single-blog-post .blog-post-bottom-meta {
-    font-family: 'aileronlight';
+font-family: 'Poiret One', cursive;
 }
 .single-blog-post .blog-post-bottom-meta a {
     color: #a3a3a3;
@@ -2223,7 +2223,7 @@ nav.menu.flex ul li img{
 }
 .twitter-header .twitter-title {
     font-size: 30px;
-    font-family: 'aileronlight';
+font-family: 'Poiret One', cursive;
 }
 
 
@@ -2233,7 +2233,7 @@ nav.menu.flex ul li img{
     font-size: 15px;
     color: #999;
     margin-bottom: 18px;
-    font-family: 'aileronlight';
+    font-family: 'Poiret One', cursive;
     line-height: 1;
 }
 
@@ -2253,7 +2253,7 @@ nav.menu.flex ul li img{
     color: #999;
     margin-left: 15px;
     margin-right: 15px;
-    font-family: 'aileronlight';
+   font-family: 'Poiret One', cursive;
 }
 
 #allTweets .single-tweet .tweet-controlls a i {
@@ -2280,7 +2280,7 @@ nav.menu.flex ul li img{
     text-align: center;
     color: #fff;
     padding: 25px 0px;
-    font-family: 'aileronlight';
+    font-family: 'Poiret One', cursive;
 }
 .map-header-area h2 {
     font-size: 23px;
@@ -2363,7 +2363,7 @@ nav.menu.flex ul li img{
     font-size: 20px;
     color: #666;
     margin-bottom: 35px;
-    font-family: 'aileronlight';
+    font-family: 'Poiret One', cursive;
 }
 
 .contact-info .contact-info-lists li {
@@ -2705,3 +2705,9 @@ nav.menu.flex ul li img{
 .contact .contact-location-toggle-btn{
     border: 3px solid #66798F;
 }
+
+/*fonts override*/
+#why-features-list{
+    font-family: 'Raleway', sans-serif !important;
+}
+
