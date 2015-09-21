@@ -881,7 +881,7 @@ nav.menu.flex ul li img{
     background:     -ms-linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* IE10 */
     background:      -o-linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* Opera 11.10+ */
     background:         linear-gradient(90deg, #00C9FF 10%, #92FE9D 90%); /* W3C */
-    background: url('https://res.cloudinary.com/medicloc/image/upload/v1442660200/backgrounds/banner_bg.png');
+    background: url('https://res.cloudinary.com/medicloc/image/upload/v1442859909/banner-bg02.jpg');
     position: relative;
     min-height: 100%;
     padding-top: 200px;
@@ -942,8 +942,8 @@ nav.menu.flex ul li img{
 }
 #home h4{
     color: #FFF;
-    font-weight: 500;
-    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-family: Helvetica, cursive;
 }
 #home .heading{
     margin-bottom: 10px;
