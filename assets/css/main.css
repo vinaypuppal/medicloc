@@ -2643,6 +2643,9 @@ font-family: 'Poiret One', cursive;
     .countdown_amount{
     font-size: 40px;
     }
+    .fb-like{
+        display: none;
+    }
 } 
 
 
@@ -2653,20 +2656,14 @@ font-family: 'Poiret One', cursive;
     .hasCountdown{
       width: 75%;
     }
-    html, body {
-    overflow-x: hidden;
-    width: 100%;
-}
+    
 } 
 
 @media only screen and (max-width:480px){
     .hasCountdown{
       width: 100%;
     }
-    html, body {
-    overflow-x: hidden;
-    width: 100%;
-}
+    
 } 
 
 .contact-info{
